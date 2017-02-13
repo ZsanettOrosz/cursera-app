@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: cursera-app
+  host: cursera-app
+  disk_quota: 1024M
+  services:
+  - cursera-app-cloudantNoSQLDB
+  - cursera-app-iotf-service
